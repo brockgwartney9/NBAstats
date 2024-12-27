@@ -1,5 +1,8 @@
 
 #TODO add type casting, comments, automatic year calc,
+
+import requests
+
 class Date:
 
     def __init__(self, month: str, day: str, year: str):
@@ -136,13 +139,32 @@ class Date:
 
         
 
-def get_link():
+def get_link(date1, date2):
+    ##Sample link https://www.nba.com/stats/players/traditional?DateFrom=&DateTo=&Season=2023-24&PerMode=Totals
+
+    year1 = date1.year
+    year2 = date2.year
+
+    if year1 != year2:
+        link_year = f"{year1}-{year2[2:]}"
+    else:
+        year2_end = str(int(year2[2:]) + 1)
+        print(len(year2_end))
+        if len(year2_end) == 1:
+            year2_end = '0' + year2_end
+        link_year = f"{year1}-{year2_end}"
+    
+    x = f"https://www.nba.com/stats/players/traditional?DateFrom=&DateTo=&Season={link_year}&PerMode=Totals"
+
+    return x
+
+def get_page(link):
     pass
 
 def main():
     x = Date('05', '07', '2000')
-    print(x.month, x.day, x.year)
-    print(x.is_valid_date())
+    y = Date('05', '07', '2000')
+    get_link(x,y)
 
 if __name__ == '__main__':
     main()
