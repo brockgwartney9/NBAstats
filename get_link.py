@@ -1,7 +1,7 @@
 
 #TODO add type casting, comments, automatic year calc,
 
-import requests
+
 
 class Date:
 
@@ -149,7 +149,6 @@ def get_link(date1, date2):
         link_year = f"{year1}-{year2[2:]}"
     else:
         year2_end = str(int(year2[2:]) + 1)
-        print(len(year2_end))
         if len(year2_end) == 1:
             year2_end = '0' + year2_end
         link_year = f"{year1}-{year2_end}"
@@ -158,8 +157,6 @@ def get_link(date1, date2):
 
     return x
 
-def get_page(link):
-    pass
 
 def main():
     x = Date('05', '07', '2000')
