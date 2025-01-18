@@ -1,5 +1,4 @@
-﻿Column1,Column2,Column3,Column4,Column5,Column6,Column7,Column8,Column9,Column10,Column11,Column12,Column13,Column14,Column15,Column16,Column17,Column18,Column19,Column20,Column21,Column22,Column23,Column24,Column25,Column26,Column27,Column28,Column29,Column30,Column31,Column32,Column33
-Player,Age,Team,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Trp-Dbl,Awards,Player-additional,
+﻿Player,Age,Team,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Trp-Dbl,Awards,Player-additional,
 Luka Dončić,24,DAL,PG,70,70,2624,804,1652,.487,284,744,.382,520,908,.573,.573,478,608,.786,59,588,647,686,99,38,282,149,2370,21,MVP-3CPOY-6ASNBA1,doncilu01,
 Shai Gilgeous-Alexander,25,OKC,PG,75,75,2553,796,1487,.535,95,269,.353,701,1218,.576,.567,567,649,.874,65,350,415,465,150,67,162,184,2254,0,MVP-2DPOY-7CPOY-3ASNBA1,gilgesh01,
 Giannis Antetokounmpo,29,MIL,PF,73,73,2567,837,1369,.611,34,124,.274,803,1245,.645,.624,514,782,.657,196,645,841,476,87,79,250,210,2222,10,MVP-4DPOY-9CPOY-12ASNBA1,antetgi01,
